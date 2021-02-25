@@ -4,6 +4,14 @@ body {
     background-repeat: no-repeat;
 }
 
+a {
+    text-decoration: none;
+}
+
+.article:hover {
+    color: aqua;
+}
+
 h1 {
     text-shadow: 2px 2px ##FFFF8D;
     font-size: 20px;
@@ -32,11 +40,13 @@ img {
     cursor: pointer;
     color: black;
 }
+
 #name {
     font-size: 30px;
     line-height: 1.2;
     font-family: cursive;
 }
+
 .links {
     float: left;
     color: black;
@@ -47,6 +57,13 @@ img {
     font-size: 15px;
     font-family: 'Miltonian Tattoo', cursive;
 }
+
 .links:hover {
     background-color: peachpuff;
+}
+
+#welcome {
+    display: table;
+    width: 100%;
+    height: 100%;
 }
