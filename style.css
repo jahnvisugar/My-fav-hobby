@@ -26,9 +26,14 @@ h1 {
 }
 
 img {
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
     border-radius: 50%;
     width: 100px;
     text-align: center;
+}
+img:hover{
+    transform: scale(0.9);
 }
 
 .menu {
